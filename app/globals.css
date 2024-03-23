@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  font-size: 16px;
+}
+
+@font-face {
+  font-family:'Switzer';
+  src: url('../public/font/Switzer-Light.woff2');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Switzer';
+  src: url('../public/font/Switzer-Regular.woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Switzer';
+  src: url('../public/font/Switzer-Medium.woff2');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Switzer';
+  src: url('../public/font/Switzer-Semibold.woff2');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Switzer';
+  src: url('../public/font/Switzer-Bold.woff2');
+  font-weight: 700;
+}
+
+

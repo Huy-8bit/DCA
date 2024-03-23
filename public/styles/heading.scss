@@ -1,0 +1,33 @@
+.heading {
+  text-shadow: 0px 1px 0px rgba(148, 178, 185, 0.89);
+  font-family: Switzer;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 90%;
+  /* 57.6px */
+  background: var(
+    --Primary-Text-title-linear,
+    linear-gradient(181deg, #fff 10.05%, #96b5cb 126.05%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title {
+  font-family: Switzer;
+  font-style: normal;
+  font-weight: 700;
+  // line-height: 90%;
+  /* 57.6px */
+  /* 57.6px */
+  background: radial-gradient(
+    184.5% 115.57% at 24.58% 0%,
+    #fff6d6 0%,
+    #eec472 52.4%,
+    #ff8f76 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

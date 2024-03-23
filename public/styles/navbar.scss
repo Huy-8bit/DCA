@@ -1,0 +1,13 @@
+.navbar {
+  border-radius: 100px;
+  border: 1px solid #8f8f8f;
+  background: rgba(14, 15, 17, 0.4);
+  backdrop-filter: blur(10px);
+}
+.submenu {
+  border-radius: 32px;
+  // border: 1px solid var(--Stroke-Linear, #000);
+  background: #000;
+  // border: 1px solid;
+  border-image: linear-gradient(279.52deg, #000000 16.73%, #8e8282 40.68%, #493d3d 83.27%);
+}

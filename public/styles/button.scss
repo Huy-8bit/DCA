@@ -1,0 +1,78 @@
+.button {
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: linear-gradient(
+      180deg,
+      rgba(238, 196, 114, 0) 0%,
+      rgba(238, 196, 114, 0.24) 100%
+    ),
+    rgba(14, 15, 17, 0.4);
+
+  /* Inn Button */
+  box-shadow: 0px 0px 4px 1px #eec472 inset,
+    0px 0px 8px 2px rgba(238, 196, 114, 0.24);
+  backdrop-filter: blur(10px);
+}
+.box {
+  position: relative;
+  z-index: 0;
+  /* width: 400px;
+	height: 300px; */
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -2;
+    left: 0;
+    top: 0;
+    width: 1000%;
+    height: 1000%;
+    background-color: #49494d;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-image: conic-gradient(#00000000, #f9effa, transparent 10%);
+    animation: rotate 3s linear infinite;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 1px;
+    top: 1px;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    background: #000;
+  }
+}
+.container-btn-secondary {
+  border-radius: 12px;
+  width: 100%;
+  border: 1px solid var(--Stroke-Linear, #000);
+  background: radial-gradient(
+      66.86% 119.86% at 17.75% 0%,
+      rgba(251, 212, 212, 0) 0%,
+      rgba(57, 35, 35, 0) 28.62%,
+      rgba(0, 0, 0, 0.2) 79.06%,
+      rgba(255, 215, 215, 0.2) 100%
+    ),
+    rgba(255, 255, 255, 0.1);
+    padding: 4px;
+}
+.btn-secondary {
+  border-radius: 8px;
+  background: radial-gradient(
+    184.5% 115.57% at 24.58% 0%,
+    #fff6d6 0%,
+    #eec472 52.4%,
+    #ff8f76 100%
+  );
+  box-shadow: 0px 2px 0px 0px #dd9560;
+  width: 100%;
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(1turn);
+  }
+}

@@ -1,0 +1,32 @@
+.join_us {
+  .content {
+    border-radius: 16px;
+    border: 1px solid #FFF0CB;
+    background: rgba(0, 0, 0, 0.75);
+    // backdrop-filter: blur(8px);
+    overflow: hidden;
+    .input_wrap {
+    //   background-image: linear-gradient(
+    //     274.76deg,
+    //     #251c1c 28.21%,
+    //     #3e3131 43.9%,
+    //     #2a1e1e 71.79%
+    //   );
+      border-radius: 8px;
+      overflow: hidden;
+      border: solid 1px #251C1C;
+    }
+    .input {
+        background: radial-gradient(
+          74.5% 926.91% at 5.78% 0%,
+          rgba(255, 255, 255, 0.2) 0%,
+          rgba(255, 255, 255, 0.03) 13%,
+          rgba(255, 255, 255, 0.05) 77%,
+          rgba(255, 255, 255, 0.1) 87%,
+          rgba(255, 255, 255, 0.03) 100%
+        );
+        outline: none;
+      //   border: 1px solid;
+    }
+  }
+}

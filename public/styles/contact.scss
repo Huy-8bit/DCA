@@ -1,0 +1,37 @@
+.get_in_touch {
+  .heading {
+    text-shadow: 0px 1px 0px rgba(148, 178, 185, 0.89);
+    font-family: Switzer;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%;
+    /* 57.6px */
+    letter-spacing: 0.64px;
+    background: linear-gradient(181deg, #fff 10.05%, #96b5cb 126.05%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .des {
+    background: var(
+      --Primary-Text-title-linear,
+      linear-gradient(181deg, #fff 10.05%, #96b5cb 126.05%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .form{
+    border-radius: 12px;
+      border: 1px solid var(--Stroke-Linear, #000);
+      background: rgba(255, 255, 255, 0.04);
+      backdrop-filter: blur(50px);
+  }
+}
+.description{
+  background: var(--Primary-Text-title-linear,
+        linear-gradient(181deg, #fff 10.05%, #96b5cb 126.05%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
