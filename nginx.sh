@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Định nghĩa tên file cấu hình và tên miền của bạn
-NGINX_CONFIG_FILE='/etc/nginx/sites-available/your_domain'
-DOMAIN='your_domain' # Thay thế your_domain bằng tên miền thực tế của bạn
+NGINX_CONFIG_FILE='/etc/nginx/sites-available/DCA'
+DOMAIN='DCA' # Thay thế your_domain bằng tên miền thực tế của bạn
 
 # Tạo bản sao lưu file cấu hình hiện tại
 sudo cp $NGINX_CONFIG_FILE "${NGINX_CONFIG_FILE}.bak"
