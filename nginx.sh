@@ -13,7 +13,7 @@ server {
     listen 80;
     listen [::]:80;
 
-    server_name $DOMAIN www.$DOMAIN;
+    server_name 103.241.43.167;
 
     location / {
         proxy_pass http://localhost:3000; # Chuyển hướng request đến app Node.js
