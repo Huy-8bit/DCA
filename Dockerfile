@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Cài đặt cổng mà ứng dụng sẽ chạy
-EXPOSE 80
+EXPOSE 3000
 
 # Chạy lệnh để khởi động ứng dụng của bạn
-CMD ["npm", "run", "start"]
+CMD ["npm", "run", "dev"]
