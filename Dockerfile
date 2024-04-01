@@ -1,6 +1,5 @@
 # Sử dụng một hình ảnh cơ bản của Node
-FROM node:21
-
+FROM node:latest
 # Đặt thư mục làm việc
 WORKDIR /usr/src/app
 
