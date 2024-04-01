@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 const Footer = ({ isAbsolute }: { isAbsolute?: boolean }) => {
   return (
-    <main className={`w-full lg:w-[1040px] mx-auto px-4 lg:px-0 h-[183px] ${isAbsolute ? 'absolute bottom-20 lg:bottom-0 left-1/2 -translate-x-1/2' : 'relative'}`}>
+    <main className={`w-full lg:w-[1040px] mx-auto px-4 lg:px-0 h-[183px] ${isAbsolute ? 'absolute bottom-40 lg:bottom-0 left-1/2 -translate-x-1/2' : 'relative z-20'}`}>
       <div className='hidden lg:block'>
         <section className='flex items-center justify-between'>
           <div className='flex items-center space-x-3'>

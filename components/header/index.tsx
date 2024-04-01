@@ -33,7 +33,7 @@ const Header = () => {
 
 
     return (
-        <div className='navbar absolute top-4 left-1/2 w-full md:w-[561px] h-[64px] py-4 px-8 -translate-x-1/2 z-10 flex items-center justify-between gap-[64px]'>
+        <div className='navbar z-50 absolute top-4 left-1/2 w-full md:w-[561px] h-[64px] py-4 px-8 -translate-x-1/2 z-10 flex items-center justify-between gap-[64px]'>
             <Link href={'/'}>
                 <Image src={logo} alt='logo' className='w-10 h-10 min-w-10' />
             </Link>
