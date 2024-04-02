@@ -24,11 +24,18 @@ const Footer = ({ isAbsolute }: { isAbsolute?: boolean }) => {
         <section className='flex items-center justify-between mt-4'>
           <p className='text-[#8F9399] text-sm font-normal text-center'>All rights reserved</p>
           <div className='flex items-center justify-between gap-6'>
-            <Image src={ic_email} alt='email' className='w-10 h-10 min-w-10' />
-            <Image src={ic_twitter} alt='email' className='w-10 h-10 min-w-10' />
-            <Image src={ic_telegram} alt='email' className='w-10 h-10 min-w-10' />
+            <a href="mailto:contact@degencapital.info">
+              <Image src={ic_email} alt='email' width={40} height={40} />
+            </a>
+            <a href="https://twitter.com/dca_auth" target="_blank" rel="noopener noreferrer">
+              <Image src={ic_twitter} alt='twitter' width={40} height={40} />
+            </a>
+            <a href="https://t.me/azcoinvest_chat" target="_blank" rel="noopener noreferrer">
+              <Image src={ic_telegram} alt='telegram' width={40} height={40} />
+            </a>
           </div>
         </section>
+
       </div>
       <div className=' lg:hidden flex flex-col gap-4'>
         <div className='flex flex-col items-center space-x-3'>

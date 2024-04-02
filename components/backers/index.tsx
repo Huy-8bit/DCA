@@ -39,7 +39,7 @@ const Backer = () => {
                         <Image src={backer} alt='backer' fill priority />
                     </div>
                 </div>
-                <p className='title text-center mt-6 text-base leading-6 lg:text-[24px] font-medium'>Over 100 KOLs and more than 1000 communities in Vietnam.</p>
+                <p className='title text-center mt-6 text-base leading-6 lg:text-[24px] font-medium'>Over 100 Kols across 100 communities in Vietnam</p>
                 <Slider />
             </div>
 

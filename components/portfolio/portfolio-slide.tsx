@@ -14,6 +14,7 @@ import AutoAir_Ai from '@/images/portfolio/Items (8).png'
 import KIP from '@/images/portfolio/Items (9).png'
 import Bac_Games from '@/images/portfolio/Items (10).png'
 import Bitcoin_Virtual from '@/images/portfolio/Items (11).png'
+
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -85,5 +86,7 @@ const PortfolioSlide = () => {
         </Swiper>
     )
 }
+
+
 
 export default PortfolioSlide
