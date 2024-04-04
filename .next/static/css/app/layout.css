@@ -1076,33 +1076,32 @@ video {
   transition-timing-function: linear;
 }
 
-
-body{
+body {
   font-size: 16px;
 }
 
 @font-face {
-  font-family:'Switzer';
+  font-family: "Switzer";
   src: url(/_next/static/media/Switzer-Light.ee380964.woff2);
   font-weight: 300;
 }
 @font-face {
-  font-family: 'Switzer';
+  font-family: "Switzer";
   src: url(/_next/static/media/Switzer-Regular.03e7decc.woff2);
   font-weight: 400;
 }
 @font-face {
-  font-family: 'Switzer';
+  font-family: "Switzer";
   src: url(/_next/static/media/Switzer-Medium.7b78a01d.woff2);
   font-weight: 500;
 }
 @font-face {
-  font-family: 'Switzer';
+  font-family: "Switzer";
   src: url(/_next/static/media/Switzer-Semibold.a50b65dc.woff2);
   font-weight: 600;
 }
 @font-face {
-  font-family: 'Switzer';
+  font-family: "Switzer";
   src: url(/_next/static/media/Switzer-Bold.31bf83bc.woff2);
   font-weight: 700;
 }
@@ -1362,8 +1361,6 @@ body{
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 }
-
-
 
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[13].use[5]!./public/styles/index.scss ***!

@@ -12,9 +12,16 @@ import AutoAir_Ai from '@/images/portfolio/Items (8).png'
 import KIP from '@/images/portfolio/Items (9).png'
 import Bac_Games from '@/images/portfolio/Items (10).png'
 import Bitcoin_Virtual from '@/images/portfolio/Items (11).png'
+import LogX from '@/images/portfolio/Items (21).png'
 import Owlto from '@/images/portfolio/Items (12).png'
+import Openpad from '@/images/portfolio/Items (14).png'
+import Trex20 from '@/images/portfolio/Items (15).png'
+import Debox from '@/images/portfolio/Items (16).png'
+import Go from '@/images/portfolio/Items (17).png'
+import Fuelonblast from '@/images/portfolio/Items (18).png'
+import Raiinmaker from '@/images/portfolio/Items (19).png'
+import OrangeDX from '@/images/portfolio/Items (20).png'
 import PortfolioSlide from '@/components/portfolio/portfolio-slide'
-
 const projects = [
   {
     icon: zkasino,
@@ -63,7 +70,40 @@ const projects = [
   {
     icon: Owlto,
     title: 'Owlto Finance'
+  },
+  {
+    icon: LogX,
+    title: 'LogX'
+  },
+  {
+    icon: Openpad,
+    title: 'Openpad'
+  },
+  {
+    icon: Trex20,
+    title: 'Trex20'
+  },
+  {
+    icon: Debox,
+    title: 'Debox'
+  },
+  {
+    icon: Go,
+    title: 'Go'
+  },
+  {
+    icon: Fuelonblast,
+    title: 'Fuelonblast'
+  },
+  {
+    icon: Raiinmaker,
+    title: 'Raiinmaker'
+  },
+  {
+    icon: OrangeDX,
+    title: 'OrangeDX'
   }
+
 ]
 
 const Portfolio = () => {
@@ -95,8 +135,11 @@ const Portfolio = () => {
       </div>
       <div className='absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.6)] z-10'></div>
       {/* <Footer /> */}
+
     </div>
   )
 }
+
+
 
 export default Portfolio
