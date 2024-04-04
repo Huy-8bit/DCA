@@ -11,7 +11,7 @@ const headers = [
     {
         id: 1,
         title: 'Portfolio',
-        href: '/portfolio'
+        href: '#portfolio'
     },
     {
         id: 2,

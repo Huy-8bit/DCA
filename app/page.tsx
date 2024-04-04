@@ -6,8 +6,8 @@ import Header from "@/components/header";
 import HighLight from "@/components/highlight";
 import JoinUs from "@/components/joinus";
 import WhyChooseUs from "@/components/whychooseus";
-import PortfolioSlide from "@/app/portfolio/page";
 import Image from "next/image";
+import Portfolio from "./portfolio/page";
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
       <HighLight />
       <WhyChooseUs />
       <Backer />
-      <PortfolioSlide />
+      <Portfolio />
       <JoinUs />
       <Footer isAbsolute />
     </main>

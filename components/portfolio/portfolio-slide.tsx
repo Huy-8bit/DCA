@@ -74,7 +74,7 @@ const PortfolioSlide = () => {
                 clickable: true,
             }}
             modules={[Pagination]}
-            className="mySwiper mt-8 h-[200px]"
+            className="mySwiper mt-8 h-[200px] block lg:hidden"
         >
             {projects.map((project, index) => {
                 return (
