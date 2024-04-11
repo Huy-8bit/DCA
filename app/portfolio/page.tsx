@@ -21,7 +21,14 @@ import Go from '@/images/portfolio/Items (17).png'
 import Fuelonblast from '@/images/portfolio/Items (18).png'
 import Raiinmaker from '@/images/portfolio/Items (19).png'
 import OrangeDX from '@/images/portfolio/Items (20).png'
+import Finceptor from '@/images/portfolio/Items (22).png'
+import Terminal from '@/images/portfolio/Items (23).png'
+import $Earmn from '@/images/portfolio/Items (24).png'
+import BitSmiley from '@/images/portfolio/Items (25).png'
+import Orbital7 from '@/images/portfolio/Items (26).png'
+import Hotpot from '@/images/portfolio/Items (27).png'
 import PortfolioSlide from '@/components/portfolio/portfolio-slide'
+
 const projects = [
   {
     icon: zkasino,
@@ -102,13 +109,37 @@ const projects = [
   {
     icon: OrangeDX,
     title: 'OrangeDX'
-  }
+  },
+  {
+    icon: Finceptor,
+    title: 'Finceptor'
+  },
+  {
+    icon: Terminal,
+    title: 'Terminal'
+  },
+  {
+    icon: $Earmn,
+    title: '$EARNM'
+  },
+  {
+    icon: BitSmiley,
+    title: 'BitSmiley'
+  },
+  {
+    icon: Orbital7,
+    title: 'Orbital7'
+  },
+  {
+    icon: Hotpot,
+    title: 'Hotpot'
+  },
 
 ]
 
 const Portfolio = () => {
   return (
-    <div id='portfolio' className='portfolio w-full h-[500px] lg:h-[1100px] relative'>
+    <div id='portfolio' className='portfolio w-full h-[800px] lg:h-[1500px] relative'>
       <video
         className=" h-full w-full mx-auto object-cover mix-blend-luminosity"
         src="images/portfolio/earth.webm"
